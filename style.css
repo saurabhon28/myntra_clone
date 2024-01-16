@@ -6,6 +6,10 @@
     Helvetica, Arial, sans-serif;
 }
 
+body {
+  padding-top: 80px; /* Adjust this value based on your header height */
+}
+
 /* Header Section */
 
 header {
@@ -15,9 +19,10 @@ header {
   background-color: #ffffff;
   height: 80px;
   border-bottom: 2px solid rgba(197, 199, 191, 0.2);
-  /* position: fixed;
+  position: fixed;
   width: 100%;
-  margin-top: 0; */
+  top: 0;
+  z-index: 1000;
 }
 
 .myntra-home {
